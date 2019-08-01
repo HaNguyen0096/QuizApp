@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Metrophobic', sans-serif;
+    background-color: #ffffff;
+}
+.logo {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+button {
+    padding: 20px;
+    border: none;
+    background-color: #38A9AF;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 40px
+}
+button:hover, button:focus {
+    background-color: rgb(13, 15, 19);
+    color: #ebca52
+}
+
+
